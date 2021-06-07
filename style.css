@@ -21,7 +21,6 @@ body {
     background-color: #1f1f1f;
     /* background: url("images/sitebg.png") no-repeat center fixed;
     background-size: cover; */
-    height: 100vh;
     display: flex;
     color: #fff;
     flex-direction: column;
@@ -29,7 +28,6 @@ body {
     font-family: "Poiret One", cursive;
     padding: 0px 20px;
     margin: 0;
-    overflow: hidden;
   }
   .projectIcons {
       text-decoration: none;
@@ -37,8 +35,8 @@ body {
       padding: 2px 9px 0px 13px;
       font-family: 'Logo';
       height: 60px;
-      font-size: 28px;
-      margin: 9px;
+      font-size: 25px;
+      margin: 5px 10px 5px 10px;
       border-radius: 10px;
       border: 1px solid #fff;
   }
@@ -75,7 +73,8 @@ body {
     display: flex;
     position: relative;
     margin-top: -5px;
-    z-index: 30;    
+    z-index: 30; 
+    width: 600px;   
 }
 .projects {
     background-color: rgba(255, 255, 255, 0.041);
@@ -85,15 +84,32 @@ body {
     text-align: justify;
     flex-direction: column;
     margin-top: 20px;
-    padding: 20px 40px;
-    z-index: 30;
+    margin-bottom: 20px;
+    padding: 20px 20px;
+    z-index: 30; 
+    width: 600px;  
 }
-.projects p {
+.projects .projectInfo {
     margin-top: -6px;
 }
 
+@media screen and (max-width: 600px) {
+  .main {
+    width: 400px;
+  }
+  .projects {
+    width: 400px;
+  }
+}
+
 @media screen and (max-width: 400px) {
-    .projectIcons {
+  .main {
+    width: 300px;
+  }
+  .projects {
+    width: 300px;
+  }  
+  .projectIcons {
         padding: 2px 9px 0px 10px;
         margin: 3px 1px 3px 5px;
     }
