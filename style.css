@@ -12,86 +12,86 @@
 }
 
 body {
-    /* background-image: linear-gradient(
+  /* background-image: linear-gradient(
       0deg,
       rgb(52, 4, 77) 23.8%,
       rgba(247, 247, 247, 0.575) 92%
     ); */
-    /* background-color: rgba(236, 235, 235, 0.808); */
-    background-color: #1f1f1f;
-    /* background: url("images/sitebg.png") no-repeat center fixed;
+  /* background-color: rgba(236, 235, 235, 0.808); */
+  background-color: #1f1f1f;
+  /* background: url("images/sitebg.png") no-repeat center fixed;
     background-size: cover; */
-    display: flex;
-    color: #fff;
-    flex-direction: column;
-    align-items: center;
-    font-family: "Poiret One", cursive;
-    padding: 0px 20px;
-    margin: 0;
-  }
-  .projectIcons {
-      text-decoration: none;
-      color: #fff;
-      padding: 2px 9px 0px 13px;
-      font-family: 'Logo';
-      height: 60px;
-      font-size: 25px;
-      margin: 5px 10px 5px 10px;
-      border-radius: 10px;
-      border: 1px solid #fff;
-  }
-  .projectIcons:hover {
-      background-color: #fff;
-      color: #1f1f1f;
-  }
-  .otherFont {
-    font-family: "Poiret One", cursive;
-    font-size: 20px;
-  }
-  h1 {
-    font-family: "Logo";
-    font-weight: 300;
-    font-size: 50px;
-    user-select: none;
-  }
-  h6 {
-    text-decoration: bold;
-    margin-top: -50px;
-    padding: 0, auto;
-    font-size: 0.8rem;
-    font-weight: 300;
-    user-select: none;
-  }
-  .profileImg {
-      margin: 0px;
-      padding: 0px;
-      height:30vh
-  }
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poiret One", cursive;
+  padding: 0px 20px;
+  margin: 0;
+}
+.projectIcons {
+  text-decoration: none;
+  color: #fff;
+  padding: 2px 9px 0px 13px;
+  font-family: "Logo";
+  height: 60px;
+  font-size: 25px;
+  margin: 5px 10px 5px 10px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+}
+.projectIcons:hover {
+  background-color: #fff;
+  color: #1f1f1f;
+}
+.otherFont {
+  font-family: "Poiret One", cursive;
+  font-size: 20px;
+}
+h1 {
+  font-family: "Logo";
+  font-weight: 300;
+  font-size: 50px;
+  user-select: none;
+}
+h6 {
+  text-decoration: bold;
+  margin-top: -50px;
+  padding: 0, auto;
+  font-size: 0.8rem;
+  font-weight: 300;
+  user-select: none;
+}
+.profileImg {
+  margin: 0px;
+  padding: 0px;
+  height: 30vh;
+}
 .main {
-    background-color: #fff;
-    border-radius: 15px;
-    display: flex;
-    position: relative;
-    margin-top: -5px;
-    z-index: 30; 
-    width: 600px;   
+  background-color: #fff;
+  border-radius: 15px;
+  display: flex;
+  position: relative;
+  margin-top: -5px;
+  z-index: 30;
+  width: 600px;
 }
 .projects {
-    background-color: rgba(255, 255, 255, 0.041);
-    border-radius: 15px;
-    display: flex;
-    position: relative;
-    text-align: justify;
-    flex-direction: column;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 20px 20px;
-    z-index: 30; 
-    width: 600px;  
+  background-color: rgba(255, 255, 255, 0.041);
+  border-radius: 15px;
+  display: flex;
+  position: relative;
+  text-align: justify;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px 20px;
+  z-index: 30;
+  width: 600px;
 }
 .projects .projectInfo {
-    margin-top: -6px;
-    user-select: none;
+  margin-top: -6px;
+  user-select: none;
 }
 p {
   user-select: none;
@@ -123,14 +123,14 @@ p {
   }
   .projects {
     width: 340px;
-  }  
+  }
   .projectIcons {
-        padding: 2px 9px 0px 10px;
-        margin: 3px 1px 3px 5px;
-    }
-    .heroText {
-      color: #000;
-      text-align: center;
-      margin-top: 60px;
-    }
+    padding: 2px 9px 0px 10px;
+    margin: 3px 1px 3px 5px;
+  }
+  .heroText {
+    color: #000;
+    text-align: center;
+    margin-top: 80px;
+  }
 }
