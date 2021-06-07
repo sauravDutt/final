@@ -69,7 +69,8 @@ body::-webkit-scrollbar-thumb {
   margin: 5px;
 }
 .socialIcon:hover {
-  color: #7039c9;
+  color: #1f1f1f;
+  background-color: #fff;
 }
 .otherFont {
   font-family: "Poiret One", cursive;
