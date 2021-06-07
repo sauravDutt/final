@@ -59,9 +59,13 @@ body::-webkit-scrollbar-thumb {
 }
 .socialIcon {
   text-decoration: none;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  background-color: #1f1f1f;
   color: #fff;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 300;
+  padding: 9px 10px;
   margin: 5px;
 }
 .socialIcon:hover {
@@ -150,7 +154,6 @@ p {
   cursor: pointer;
   border-radius: 20px;
   background-color:  #1f1f1f;
-  border: 1px solid transparent;
 }
 .skills:hover {
   color: #1f1f1f;
