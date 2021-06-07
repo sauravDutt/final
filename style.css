@@ -140,6 +140,7 @@ a{
   }
   .heroText {
     text-align: center;
+    margin-left: -5px;
     margin-top: 40px;
   }
 }
