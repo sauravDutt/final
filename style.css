@@ -91,6 +91,10 @@ body {
 }
 .projects .projectInfo {
     margin-top: -6px;
+    user-select: none;
+}
+p {
+  user-select: none;
 }
 
 @media screen and (max-width: 600px) {
@@ -104,7 +108,7 @@ body {
 
 @media screen and (max-width: 400px) {
   .main {
-    width: 300px;
+    width: 340px;
   }
   .projects {
     width: 300px;
