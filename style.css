@@ -97,10 +97,13 @@ p {
   user-select: none;
 }
 .heroText {
-  width: 300px;
-  color: #000;
+  width: 320px;
+  color: rgb(66, 3, 95);
+  font-weight: 900;
+  font-size: 30px;
   text-align: center;
-  margin-top: 60px;
+  margin-left: 20px;
+  margin-top: 90px;
 }
 
 @media screen and (max-width: 600px) {
@@ -112,8 +115,9 @@ p {
   }
   .heroText {
     width: 170px;
+    font-size: 20px;
     margin-left: -5px;
-    margin-top: 110px;
+    margin-top: 90px;
   }
 }
 
@@ -129,8 +133,7 @@ p {
     margin: 3px 1px 3px 5px;
   }
   .heroText {
-    color: #000;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 40px;
   }
 }
