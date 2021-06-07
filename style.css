@@ -106,8 +106,8 @@ p {
   margin-top: 90px;
 }
 a{
-  text-decoration: underline;
-  color : #fff;
+  text-decoration: none;
+  color : rgb(129, 0, 161);
   letter-spacing: 2px;
   font-weight: 900;
 }
