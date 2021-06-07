@@ -105,6 +105,12 @@ p {
   margin-left: 20px;
   margin-top: 90px;
 }
+a{
+  text-decoration: none;
+  color : #fff;
+  letter-spacing: 2px;
+  font-weight: 900;
+}
 
 @media screen and (max-width: 600px) {
   .main {
