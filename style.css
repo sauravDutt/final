@@ -221,13 +221,292 @@ a {
   letter-spacing: 2px;
   font-weight: 900;
 }
+h6 {
+  text-decoration: bold;
+  margin-top: -50px;
+  padding: 0, auto;
+  font-size: 0.8rem;
+  font-weight: 300;
+  user-select: none;
+}
+.buttonOne {
+  margin-left: 10px;
+  font-weight: 300;
+  font-size: 13px;
+  height: 25px;
+  width: 25px;
+  color: #fff;
+  border: 1px solid #31215f93;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: transparent;
+}
+.buttonTwo {
+  font-family: "Logo";
+  font-weight: 300;
+  font-size: 15px;
+  color: #fff;
+  padding: 5px 0px;
+  margin: 0px;
+  width: 150px;
+  user-select: none;
+  background-color: transparent;
+}
+.buttonTwoSubmit {
+  margin: 10px;
+  text-decoration: none;
+  font-family: "Logo";
+  font-weight: 200;
+  font-size: 30px;
+  color: #fff;
+  border: 1px solid #562974;
+  border-radius: 15px;
+  padding: 0px 20px;
+  padding-top: 5px;
+  cursor: pointer;
+  background-color: transparent;
+}
+.buttonOne:hover,
+.buttonTwoSubmit:hover {
+  background-color: #6c2c96a2;
+  color: #fff;
+}
+.contentDash {
+  background-color: transparent;
+  overflow: hidden;
+  display: flex;
+  margin-top: 2px;
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+a{
+  text-decoration: none;
+  padding-top: 3px;
+}
+.mainContent{
+  background-color: rgba(255, 255, 255, 0.041);
+  border-radius: 15px;
+  display: flex;
+  position: relative;
+  margin-top: -5px;
+  padding: 20px 40px;
+  width:500px;
+  z-index: 30;
+} 
+.mainContent p {
+  text-align: justify;
+}
+.music-container {
+  background-color: rgba(255, 255, 255, 0.041);
+  border-radius: 15px;
+  border: 3px solid #562974;
+  display: flex;
+  padding: 20px 30px;
+  position: relative;
+  margin-top: 70px;
+  z-index: 30;
+}
 
+.img-container {
+  background-color: transparent;
+  position: relative;
+  width: 110px;
+}
+
+.img-container::after {
+  content: "";
+  background-color: #414141;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  transform: translate(-50%, 50%);
+}
+
+.img-container img {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 110px;
+  width: inherit;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  animation: rotate 3s linear infinite;
+
+  animation-play-state: paused;
+}
+
+.music-container.play .img-container img {
+  animation-play-state: running;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.action-btn {
+  background-color: rgba(255, 255, 255, 0);
+  border: 0;
+  color: #bdbcbd70;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 0 20px;
+}
+
+.action-btn.action-btn-big {
+  color: #bdbcbd70;
+  font-size: 30px;
+}
+
+.action-btn:focus {
+  outline: 0;
+}
+
+.music-info {
+  background-color: transparent;
+  border-radius: 15px 15px 0 0;
+  border: 1px solid #391e4b;
+  border-bottom: none;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: calc(100% - 40px);
+  padding: 10px 10px 10px 150px;
+  opacity: 0;
+  transform: translateY(0%);
+  transition: transform 0.3s ease-in, opacity 0.3s ease-in;
+  z-index: 0;
+  color: #fff;
+}
+
+.music-container.play .music-info {
+  opacity: 1;
+  transform: translateY(-100%);
+}
+
+.music-info h4 {
+  margin: 0;
+}
+
+.progress-container {
+  background: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+  height: 4px;
+  width: 100%;
+}
+
+.progress {
+  background-color: #6b2c96;
+  border-radius: 5px;
+  height: 100%;
+  width: 0%;
+  transition: width 0.1s linear;
+}
+#infoModal {
+  display: none;
+}
+#addModal {
+  display: none;
+}
+.modalInfo {
+  display: none;
+  position: fixed;
+  z-index: 50;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: #1f1f1f;
+}
+.modal-content-add {
+  background-color: rgba(255, 255, 255, 0.041);
+  margin: 20px auto;
+  color: #fff;
+  height: auto;
+  width: 50%;
+  border: 2px solid #562974;
+  border-radius: 20px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+  animation-name: modalopen;
+  animation-duration: 1.5s;
+}
+.closeBtn {
+  color: #fff;
+  float: right;
+  font-size: 40px;
+}
+
+.closeBtn:hover,
+.closeBtn:focus {
+  color: #bc75eb;
+  text-decoration: none;
+  cursor: pointer;
+}
+.head {
+  margin-top: -20px;
+}
+.modal-header h2,
+.modal-footer h3 {
+  margin: 0;
+}
+.modal-header {
+  padding: 35px;
+}
+.modal-body {
+  font-family: "Poiret One", cursive;
+  font-weight: bold;
+  padding: 5px 20px;
+}
+.modal-footer {
+  padding: 10px;
+  text-align: center;
+}
+.modalTitleList {
+  font-family: "Logo";
+  font-weight: 300;
+  font-size: 50px;
+}
+.secondFont {
+  font-size: 25px;
+  font-family: "Poiret One", cursive;
+}
+.secondFontYo{
+  font-size: 20px;
+  font-family: "Poiret One", cursive;
+}
+.secondFontTwo {
+  font-family: "Poiret One", cursive;
+}
 @media screen and (max-width: 600px) {
   .main {
     width: 400px;
   }
+  .buttonOne {
+    margin-left: 5px;
+  }
   .projects,
-  .about {
+  .about,
+  .mainContent {
     width: 400px;
   }
   .heroText {
@@ -236,6 +515,11 @@ a {
     margin-left: -5px;
     margin-top: 90px;
   }
+  .modal-content-add {
+    margin-top: 3vh;
+    width: 92%;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -243,7 +527,8 @@ a {
     width: 340px;
   }
   .projects,
-  .about {
+  .about,
+  .mainContent{
     width: 340px;
   }
   .projectIcons {
@@ -254,5 +539,46 @@ a {
     text-align: center;
     margin-left: -19px;
     margin-top: 40px;
+  }
+  #🎵 {
+    margin-top: -27px;
+  }
+  .buttonOne {
+    font-size: 10px;
+    padding: 0px 5px;
+    margin-top: -5px;
+  }
+  .buttonTwo {
+    width: 150px;
+  }
+  .mainContent {
+    width: 340px;
+    
+  }
+  .mainContent p {
+    margin-left: 10px;
+  }
+  .contentDash {
+    margin-top: -3px;
+  }
+  .music-container {
+    padding: 20px 22px;
+    width: 350px;
+  }
+  .img-container {
+    margin-left: -30px;
+  }
+  .img-container::after {
+    background-color: transparent;
+  }
+}
+
+@media screen and (max-height: 400px) {
+  .projects,
+  .about,
+  .mainContent, 
+  #🎵,
+  .main{
+    display: none;
   }
 }
