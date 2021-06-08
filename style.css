@@ -10,7 +10,9 @@
   src: url(TheHistoriaDemo.otf);
   font-style: normal;
 }
-
+html {
+  scroll-behavior: smooth;  
+}
 body {
   /* background-image: linear-gradient(
       0deg,
