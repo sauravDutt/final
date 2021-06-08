@@ -167,7 +167,42 @@ p {
   border-radius: 20px;
   background-color:  #1f1f1f;
 }
-.skills:hover {
+.contactIcon {
+  font-size: 15px;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+.skills:hover, .contactIcon:hover {
+  color: #1f1f1f;
+  background-color: #fff;
+}
+.contactForm {
+  margin-bottom: -10px;
+  padding: 5px 10px;
+}
+.input {
+  width: 300px;
+  font-size: 17px;
+  background-color: #1f1f1f;
+  border: 1px solid rgba(255, 255, 255, 0.137);
+  color: #fff;
+  padding: 10px;
+  margin: 5px -15px;
+}
+.submit {
+  letter-spacing: 1px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background-color: #1f1f1f;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  padding: 4px 10px;
+  cursor: pointer;
+  font-family: 'logo';
+  margin: -4px -15px;
+}
+.submit:hover {
   color: #1f1f1f;
   background-color: #fff;
 }
