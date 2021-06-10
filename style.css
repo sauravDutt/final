@@ -592,4 +592,7 @@ a{
   .buttonOne {
     padding: 3px;
   }
+  .modalInfo {
+    height: 90vh;
+  }
 }
