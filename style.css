@@ -453,6 +453,7 @@ a{
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
   animation-name: modalopen;
   animation-duration: 1.5s;
+  overflow-y: auto;
 }
 .closeBtn {
   color: #fff;
@@ -594,7 +595,6 @@ a{
   }
   .modal-content-add {
     margin: 10px auto;
-    overflow-y: auto;
   }
 
 }
