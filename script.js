@@ -12,7 +12,7 @@ const currTime = document.querySelector('#currTime');
 const durTime = document.querySelector('#durTime');
 
 // Song titles
-const songs = ['p2', 'Codeine Crazy', '5 TINT', 'Conversations', 'Fukk Sleep', 'Thats Life', 'Paranoia'];
+const songs = [ 'p2 | Lil Uzi Vert', 'Codeine Crazy | Future', '5 TINT | Travis Scott', 'A$AP Forever | A$AP Rocky','Paranoia | Pop Smoke', 'Fukk Sleep | A$AP Rocky','Thats Life | Frank Sinatra', 'Codeine | Mandragora', 'AK-47 _ Mandragora' ];
 
 // Keep track of song
 let songIndex = 1;
@@ -26,6 +26,7 @@ function loadSong(song) {
   audio.src = `music/${song}.mp3`;
   cover.src = `images/${song}.jpg`;
 }
+
 
 // Play song
 function playSong() {
