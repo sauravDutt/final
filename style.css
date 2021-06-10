@@ -183,13 +183,14 @@ p {
   padding: 5px 10px;
 }
 .input {
-  width: 300px;
+  width: 100%;
   font-size: 17px;
   background-color: #1f1f1f;
   border: 1px solid rgba(255, 255, 255, 0.137);
   color: #fff;
   padding: 10px;
-  margin: 5px -15px;
+  margin: 5px 5px;
+  margin-left: -10px;
 }
 .submit {
   letter-spacing: 1px;
