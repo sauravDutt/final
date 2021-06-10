@@ -595,6 +595,7 @@ a{
   }
   .modal-content-add {
     margin: 10px auto;
+    height: 90vh;
   }
 
 }
