@@ -304,7 +304,7 @@ a{
 .music-container {
   background-color: rgba(255, 255, 255, 0.041);
   border-radius: 15px;
-  border: 3px solid #562974;
+  border: 3px solid rgba(163, 177, 255, 0.671);
   display: flex;
   padding: 20px 30px;
   position: relative;
@@ -386,7 +386,7 @@ a{
 .music-info {
   background-color: transparent;
   border-radius: 15px 15px 0 0;
-  border: 1px solid #391e4b;
+  border: 1px solid rgba(163, 177, 255, 0.295);
   border-bottom: none;
   position: absolute;
   top: 0;
@@ -410,7 +410,7 @@ a{
 }
 
 .progress-container {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.014);
   border-radius: 5px;
   cursor: pointer;
   margin: 10px 0;
@@ -419,7 +419,7 @@ a{
 }
 
 .progress {
-  background-color: #6b2c96;
+  background-color: rgba(163, 177, 255, 0.568);
   border-radius: 5px;
   height: 100%;
   width: 0%;
