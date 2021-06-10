@@ -589,4 +589,7 @@ a{
   .main{
     display: none;
   }
+  .buttonOne {
+    padding: 3px;
+  }
 }
