@@ -594,6 +594,7 @@ a{
   }
   .modal-content-add {
     margin: 10px auto;
+    overflow: auto;
   }
 
 }
