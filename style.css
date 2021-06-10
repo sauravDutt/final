@@ -592,5 +592,8 @@ a{
   .buttonOne {
     padding: 3px;
   }
+  .modal-content-add {
+    margin: 10px auto;
+  }
 
 }
