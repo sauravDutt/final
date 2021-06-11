@@ -161,6 +161,27 @@ h6 {
   z-index: 30;
   width: 600px;
 }
+.researchContent{
+  width: 100%;
+  margin: 0px;
+  padding: 10px;
+  background-color: #1f1f1fef;
+  height: 45vh;
+  overflow-y: scroll;
+  overflow-x: none;
+}
+.researchContent::-webkit-scrollbar {
+  width: 0.1rem;
+}
+
+.researchContent::-webkit-scrollbar-track {
+  background: #1f1f1f;
+}
+
+.researchContent::-webkit-scrollbar-thumb {
+  border-radius: 0.8rem;
+  background: rgb(163, 177, 255);
+}
 .about .aboutInfo {
   margin-top: -6px;
   user-select: none;
@@ -192,12 +213,12 @@ p {
   background-color: #fff;
 }
 .contactForm {
-  margin-bottom: -10px;
+  margin-bottom: -35px;
   padding: 5px 10px;
 }
 .input {
   width: 100%;
-  font-size: 17px;
+  font-size: 15px;
   background-color: #1f1f1f;
   border: 1px solid rgba(255, 255, 255, 0.137);
   color: #fff;
@@ -213,10 +234,12 @@ p {
   color: #fff;
   font-size: 20px;
   font-weight: 300;
-  padding: 4px 10px;
+  padding:  5px 10px;
   cursor: pointer;
-  font-family: 'logo';
-  margin: -4px -15px;
+  font-family: "Poiret One", cursive;
+  margin: 0px 5px;
+  margin-top: -7px;
+  margin-left: -10px;
 }
 .submit:hover {
   color: #1f1f1f;
@@ -562,6 +585,9 @@ a{
   }
   #🎵 {
     margin-top: -27px;
+  }
+  .researchContent{
+    height: 34vh;
   }
   .buttonOne {
     font-size: 10px;
