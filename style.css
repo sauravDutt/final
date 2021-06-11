@@ -237,7 +237,7 @@ p {
   margin-left: -10px;
 }
 .usernameInput {
-  width: 80%;
+  width: 70%;
   border-radius: 10px;
   font-size: 15px;
   background-color: #1f1f1f;
@@ -625,6 +625,12 @@ a{
   .research,
   .mainContent{
     width: 340px;
+  }
+  .bitmojiIcons {
+    display: none;
+  }
+  .input {
+    width: 100%;
   }
   .projectIcons {
     padding: 2px 9px 0px 10px;
