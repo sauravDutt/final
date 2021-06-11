@@ -181,15 +181,15 @@ h6 {
   overflow-y: scroll;
   overflow-x: none;
 }
-.researchContent::-webkit-scrollbar {
+.researchContent::-webkit-scrollbar, .insightContainer::-webkit-scrollbar {
   width: 0.1rem;
 }
 
-.researchContent::-webkit-scrollbar-track{
+.researchContent::-webkit-scrollbar-track, .insightContainer::-webkit-scrollbar-track{
   background: #1f1f1f;
 }
 
-.researchContent::-webkit-scrollbar-thumb{
+.researchContent::-webkit-scrollbar-thumb, .insightContainer::-webkit-scrollbar-thumb{
   border-radius: 0.8rem;
   background: rgb(163, 177, 255);
 }
@@ -560,6 +560,12 @@ a{
   font-family: "Poiret One", cursive;
 }
 .insightDiv{
+  border-radius: 5px;
+  border: 1px solid rgba(163, 177, 255, 0.164);
+  margin-top: 7px;
+  padding: 5px;
+}
+.insightDivOne {
   border-radius: 5px;
   border: 1px solid rgba(163, 177, 255, 0.164);
   margin-top: -5px;
