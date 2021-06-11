@@ -60,11 +60,11 @@ Initially, bond completion companies would not insure Downey, until Mel Gibson p
       </div> 
       <p class="projectInfo" style="font-size:15px">
           <form action="#" class='contactForm'>
-            <textarea name="messgae" id="message" cols="30" rows="1" class='input' placeholder="Your valuable insight !!" style="margin-bottom:5px; margin-top: -10px;"></textarea><br>
+            <textarea name="messgae" id="message" cols="30" rows="1" class='input' placeholder="Your valuable insight!!" style="margin-bottom:5px; margin-top: -10px;"></textarea><button class='bitmojiIcons'><i class="far fa-meh-rolling-eyes"></i></button><br>
               <input type="text" name="username" id="username" placeholder="Username" class='usernameInput'>
-              <input type="button" value="🖖"class='submit'>
+              <input type="button" value='👍'class='submit'>
           </form>
-      </p>  
+      </p>   
       <span style="text-align: center;margin:0px;padding: 0px; margin-top: 45px; font-size: 13px;">Any boolshit insight will be deleted*</span>
     </div>
     <header id="🎵">
@@ -193,8 +193,21 @@ Initially, bond completion companies would not insure Downey, until Mel Gibson p
             </div>
         </div>
       </div>
+      <script src="fgEmojiPicker.js"></script>
       <script>
-       
+        const emojiPicker = new FgEmojiPicker({
+            trigger: ['button'],
+            removeOnSelection: false,
+            closeButton: true,
+            position: ['bottom', 'left'],
+            preFetch: true,
+            insertInto: document.querySelector('textarea'),
+            emit(obj, triggerElement) {
+                console.log(obj, triggerElement);
+            }
+        });
+
+
         var d = new Date();
         document.getElementById("demo").innerHTML = d;
 

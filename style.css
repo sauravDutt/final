@@ -228,7 +228,7 @@ p {
   padding: 5px 10px;
 }
 .input {
-  width: 100%;
+  width: 84%;
   font-size: 15px;
   background-color: #1f1f1f;
   border: 1px solid rgba(255, 255, 255, 0.137);
@@ -237,7 +237,7 @@ p {
   margin-left: -10px;
 }
 .usernameInput {
-  width: 70%;
+  width: 80%;
   border-radius: 10px;
   font-size: 15px;
   background-color: #1f1f1f;
@@ -245,7 +245,7 @@ p {
   color: #fff;
   padding: 10px;
   margin-left: -10px;
-  margin-right: 20px;
+  margin-right: 5px;
 }
 .submit {
   letter-spacing: 1px;
@@ -259,8 +259,21 @@ p {
   cursor: pointer;
   font-family: "Poiret One", cursive;
   margin: 0px 5px;
-  margin-bottom: -10px;
-  margin-left: -10px;
+  float:right;
+}
+.bitmojiIcons{
+  letter-spacing: 1px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background-color: #1f1f1f;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  padding:  5px 10px;
+  cursor: pointer;
+  margin: 0px 6px;
+  float: right;
+  margin-top: -6px;
 }
 .submit:hover {
   color: #1f1f1f;
