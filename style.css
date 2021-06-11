@@ -161,7 +161,7 @@ p {
   padding: 0px 0px 10px 0px;
 }
 .skills {
-  font-size: 25px;
+  font-size: 22px;
   padding: 10px 20px;
   margin: 0px 5px;
   margin-bottom: 10px;
@@ -262,7 +262,7 @@ h6 {
   font-weight: 200;
   font-size: 30px;
   color: #fff;
-  border: 1px solid #562974;
+  border: 1px solid rgb(163, 177, 255);
   border-radius: 15px;
   padding: 0px 20px;
   padding-top: 5px;
@@ -271,8 +271,8 @@ h6 {
 }
 .buttonOne:hover,
 .buttonTwoSubmit:hover {
-  background-color: rgb(163, 177, 255);
-  color: #1f1f1f;
+  background-color: rgba(163, 177, 255, 0.411);
+  color: #fff;
 }
 .contentDash {
   background-color: transparent;
@@ -448,7 +448,7 @@ a{
   color: #fff;
   height: auto;
   width: 50%;
-  border: 2px solid #562974;
+  border: 2px solid rgb(163, 177, 255);
   border-radius: 20px;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
   animation-name: modalopen;
@@ -463,7 +463,7 @@ a{
 
 .closeBtn:hover,
 .closeBtn:focus {
-  color: #bc75eb;
+  color: rgb(163, 177, 255);
   text-decoration: none;
   cursor: pointer;
 }
