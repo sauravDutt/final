@@ -42,7 +42,7 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   border-radius: 0.8rem;
-  background: #c099ff7a;
+  background: rgb(163, 177, 255);
 }
 .projectIcons {
   text-decoration: none;
