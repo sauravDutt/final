@@ -170,15 +170,25 @@ h6 {
   overflow-y: scroll;
   overflow-x: none;
 }
-.researchContent::-webkit-scrollbar {
+.insightContainer {
+  width: 100%;
+  margin-top: 20px;
+  border: 1px solid rgba(163, 177, 255, 0.438);
+  padding: 10px;
+  background-color: #1f1f1fef;
+  height: 10vh;
+  overflow-y: scroll;
+  overflow-x: none;
+}
+.researchContent::-webkit-scrollbar, .insightContainer::-webkit-scrollbar {
   width: 0.1rem;
 }
 
-.researchContent::-webkit-scrollbar-track {
+.researchContent::-webkit-scrollbar-track, .insightContainer::-webkit-scrollbar-track{
   background: #1f1f1f;
 }
 
-.researchContent::-webkit-scrollbar-thumb {
+.researchContent::-webkit-scrollbar-thumb, .insightContainer::-webkit-scrollbar-thumb{
   border-radius: 0.8rem;
   background: rgb(163, 177, 255);
 }
@@ -223,7 +233,6 @@ p {
   border: 1px solid rgba(255, 255, 255, 0.137);
   color: #fff;
   padding: 10px;
-  margin: 5px 5px;
   margin-left: -10px;
 }
 .submit {
