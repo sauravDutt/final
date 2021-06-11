@@ -623,6 +623,13 @@ a{
 @media screen and (max-height: 400px) {
   body {
     overflow:hidden;
+    height: 100vh
+  }
+  #🍺{
+    margin-top: 10px;
+  }
+  .music-container{
+    margin-top: 30px
   }
   .projects,
   .about,
