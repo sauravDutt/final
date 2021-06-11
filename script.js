@@ -15,7 +15,7 @@ const durTime = document.querySelector('#durTime');
 const songs = [ 'p2 | Lil Uzi Vert', 'Codeine Crazy | Future', '5 TINT | Travis Scott', 'Self Care | Mac Miller', 'A$AP Forever | A$AP Rocky','Paranoia | Pop Smoke', 'Fukk Sleep | A$AP Rocky','Thats Life | Frank Sinatra', 'Codeine | Mandragora', 'AK-47 _ Mandragora' ];
 
 // Keep track of song
-let songIndex = 2;
+let songIndex = 1;
 
 // Initially load song details into DOM
 loadSong(songs[songIndex]);
