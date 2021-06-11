@@ -239,7 +239,7 @@ h6 {
   height: 25px;
   width: 25px;
   color: #fff;
-  border: 1px solid #31215f93;
+  border: 1px solid #1f1f1f17;
   border-radius: 50%;
   cursor: pointer;
   background-color: transparent;
@@ -271,8 +271,8 @@ h6 {
 }
 .buttonOne:hover,
 .buttonTwoSubmit:hover {
-  background-color: #6c2c96a2;
-  color: #fff;
+  background-color: rgb(163, 177, 255);
+  color: #1f1f1f;
 }
 .contentDash {
   background-color: transparent;
