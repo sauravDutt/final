@@ -256,6 +256,7 @@ p {
   color: #fff;
   padding: 10px;
   margin-left: 10px;
+  cursor: pointer;
 }
 .input-submit:hover {
   color: #1f1f1f;
