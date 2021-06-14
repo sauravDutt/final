@@ -167,6 +167,9 @@ h6 {
   padding: 10px;
   background-color: #1f1f1fef;
   height: 45vh;
+  border:1px solid rgba(163, 177, 255, 0.43); 
+  border-top-left-radius: 10px; 
+  border-bottom-left-radius: 10px;
   overflow-y: scroll;
   overflow-x: none;
 }
@@ -259,6 +262,7 @@ p {
   margin-left: 10px;
   cursor: pointer;
 }
+ 
 .input-submit:hover {
   color: #1f1f1f;
   background-color: #fff;
