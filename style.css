@@ -247,21 +247,19 @@ p {
   margin-left: -10px;
   margin-right: 5px;
 }
-.submit {
-  letter-spacing: 1px;
-  border-radius: 10px;
-  border: 1px solid transparent;
+.input-submit {
+  font-size: 15px;
   background-color: #1f1f1f;
+  border: 1px solid rgba(255, 255, 255, 0.137);
   color: #fff;
-  font-size: 20px;
-  font-weight: 300;
-  padding:  5px 10px;
+  padding: 10px;
+  float: right;
+  width: 20%;
+  border-radius: 15px;
+  margin-right: 10px;
   cursor: pointer;
-  font-family: "Poiret One", cursive;
-  margin: 0px 5px;
-  float:right;
 }
-.submit:hover {
+.input-submit:hover {
   color: #1f1f1f;
   background-color: #fff;
 }
