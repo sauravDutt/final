@@ -248,16 +248,14 @@ p {
   margin-right: 5px;
 }
 .input-submit {
+  width: 20%;
+  border-radius: 10px;
   font-size: 15px;
   background-color: #1f1f1f;
   border: 1px solid rgba(255, 255, 255, 0.137);
   color: #fff;
   padding: 10px;
-  float: right;
-  width: 20%;
-  border-radius: 15px;
-  margin-right: 10px;
-  cursor: pointer;
+  margin-left: 10px;
 }
 .input-submit:hover {
   color: #1f1f1f;
