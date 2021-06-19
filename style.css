@@ -98,9 +98,10 @@ h6 {
 }
 .contactTitle {
   font-family: 'Logo';
+  font-size: 35px;
 }
 .contactTitle span{
-  font-size: 15px;
+  font-size: 20px;
   font-family: "Poiret One", cursive;
 }
 .profileImg {
