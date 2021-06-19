@@ -11,7 +11,7 @@
   font-style: normal;
 }
 html {
-  scroll-behavior: smooth;  
+  scroll-behavior: smooth;
 }
 body {
   /* background-image: linear-gradient(
@@ -97,10 +97,10 @@ h6 {
   user-select: none;
 }
 .contactTitle {
-  font-family: 'Logo';
+  font-family: "Logo";
   font-size: 35px;
 }
-.contactTitle span{
+.contactTitle span {
   font-size: 20px;
   font-family: "Poiret One", cursive;
 }
@@ -118,6 +118,9 @@ h6 {
   margin-bottom: 5px;
   z-index: 30;
   width: 600px;
+}
+.freelanceProjectsImages {
+  width: 100%;
 }
 .projects {
   background-color: rgba(255, 255, 255, 0.041);
@@ -149,7 +152,7 @@ h6 {
   z-index: 30;
   width: 600px;
 }
-.research{
+.research {
   background-color: rgba(255, 255, 255, 0.041);
   border-radius: 15px;
   display: flex;
@@ -162,14 +165,14 @@ h6 {
   z-index: 30;
   width: 600px;
 }
-.researchContent{
+.researchContent {
   width: 100%;
   margin: 0px;
   padding: 10px;
   background-color: #1f1f1fef;
   height: 45vh;
-  border:1px solid rgba(163, 177, 255, 0.43); 
-  border-top-left-radius: 10px; 
+  border: 1px solid rgba(163, 177, 255, 0.43);
+  border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   overflow-y: scroll;
   overflow-x: none;
@@ -185,15 +188,18 @@ h6 {
   overflow-y: scroll;
   overflow-x: none;
 }
-.researchContent::-webkit-scrollbar, .insightContainer::-webkit-scrollbar {
+.researchContent::-webkit-scrollbar,
+.insightContainer::-webkit-scrollbar {
   width: 0.1rem;
 }
 
-.researchContent::-webkit-scrollbar-track, .insightContainer::-webkit-scrollbar-track{
+.researchContent::-webkit-scrollbar-track,
+.insightContainer::-webkit-scrollbar-track {
   background: #1f1f1f;
 }
 
-.researchContent::-webkit-scrollbar-thumb, .insightContainer::-webkit-scrollbar-thumb{
+.researchContent::-webkit-scrollbar-thumb,
+.insightContainer::-webkit-scrollbar-thumb {
   border-radius: 0.8rem;
   background: rgb(163, 177, 255);
 }
@@ -216,7 +222,7 @@ p {
   margin-bottom: 10px;
   cursor: pointer;
   border-radius: 20px;
-  background-color:  #1f1f1f;
+  background-color: #1f1f1f;
 }
 .contactIcon {
   font-size: 15px;
@@ -263,7 +269,7 @@ p {
   margin-left: 10px;
   cursor: pointer;
 }
- 
+
 .input-submit:hover {
   color: #1f1f1f;
   background-color: #fff;
@@ -343,20 +349,20 @@ h6 {
   align-items: center;
   position: relative;
 }
-a{
+a {
   text-decoration: none;
   padding-top: 3px;
 }
-.mainContent{
+.mainContent {
   background-color: rgba(255, 255, 255, 0.041);
   border-radius: 15px;
   display: flex;
   position: relative;
   margin-top: -5px;
   padding: 20px 40px;
-  width:500px;
+  width: 500px;
   z-index: 30;
-} 
+}
 .mainContent p {
   text-align: justify;
 }
@@ -554,14 +560,14 @@ a{
   font-size: 25px;
   font-family: "Poiret One", cursive;
 }
-.secondFontYo{
+.secondFontYo {
   font-size: 20px;
   font-family: "Poiret One", cursive;
 }
 .secondFontTwo {
   font-family: "Poiret One", cursive;
 }
-.insightDiv{
+.insightDiv {
   border-radius: 5px;
   border: 1px solid rgba(163, 177, 255, 0.164);
   margin-top: 7px;
@@ -575,7 +581,7 @@ a{
   margin-top: -5px;
   padding: 5px;
 }
-.insight{
+.insight {
   padding: 0px;
   margin-top: -10px;
 }
@@ -612,7 +618,7 @@ a{
   .projects,
   .about,
   .research,
-  .mainContent{
+  .mainContent {
     width: 340px;
   }
   .input {
@@ -630,7 +636,7 @@ a{
   #🎵 {
     margin-top: -40px;
   }
-  .researchContent{
+  .researchContent {
     height: 34vh;
   }
   .buttonOne {
@@ -643,7 +649,6 @@ a{
   }
   .mainContent {
     width: 340px;
-    
   }
   .mainContent p {
     margin-left: 10px;
@@ -666,22 +671,22 @@ a{
 
 @media screen and (max-height: 400px) {
   body {
-    overflow:hidden;
-    height: 100vh
+    overflow: hidden;
+    height: 100vh;
   }
-  #🍺{
+  #🍺 {
     margin-top: 10px;
   }
-  .music-container{
-    margin-top: 42px
+  .music-container {
+    margin-top: 42px;
   }
   .projects,
   .about,
-  .mainContent, 
+  .mainContent,
   #🎵,
   .researchContent,
   .research,
-  .main{
+  .main {
     display: none;
   }
   .buttonOne {
@@ -691,6 +696,4 @@ a{
     margin: 10px auto;
     height: 90vh;
   }
-
 }
- 
