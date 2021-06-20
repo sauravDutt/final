@@ -177,36 +177,22 @@ h6 {
   margin: 0px;
   padding: 10px;
   background-color: #1f1f1fef;
-  height: 45vh;
+  height: 60vh;
   border: 1px solid rgba(163, 177, 255, 0.43);
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   overflow-y: scroll;
   overflow-x: none;
 }
-.insightContainer {
-  width: 100%;
-  margin-top: 20px;
-  border: 1px solid rgba(163, 177, 255, 0.438);
-  border-radius: 7px;
-  padding: 10px;
-  background-color: #000;
-  height: 15vh;
-  overflow-y: scroll;
-  overflow-x: none;
-}
-.researchContent::-webkit-scrollbar,
-.insightContainer::-webkit-scrollbar {
+.researchContent::-webkit-scrollbar{
   width: 0.1rem;
 }
 
-.researchContent::-webkit-scrollbar-track,
-.insightContainer::-webkit-scrollbar-track {
+.researchContent::-webkit-scrollbar-track{
   background: #1f1f1f;
 }
 
-.researchContent::-webkit-scrollbar-thumb,
-.insightContainer::-webkit-scrollbar-thumb {
+.researchContent::-webkit-scrollbar-thumb{
   border-radius: 0.8rem;
   background: rgb(163, 177, 255);
 }
@@ -644,7 +630,7 @@ a {
     margin-top: -40px;
   }
   .researchContent {
-    height: 34vh;
+    height: 60vh;
   }
   .buttonOne {
     font-size: 10px;
