@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 * {
   box-sizing: border-box;
@@ -81,6 +82,12 @@ footer {
 .otherFont {
   font-family: "Poiret One", cursive;
   font-size: 20px;
+}
+.terminal-commands {
+  letter-spacing: 2px;
+  padding: 0px 5px;
+  color: rgb(208, 255, 0);
+  font-family: 'Roboto', sans-serif;
 }
 h1 {
   font-family: "Logo";
