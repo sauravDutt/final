@@ -12,7 +12,7 @@ const currTime = document.querySelector('#currTime');
 const durTime = document.querySelector('#durTime');
 
 // Song titles
-const songs = [ 'p2 | Lil Uzi Vert', 'Codeine Crazy | Future', '5 TINT | Travis Scott', 'Check-Young Thug ','Self Care | Mac Miller', 'A$AP Forever | A$AP Rocky','Paranoia | Pop Smoke', 'Fukk Sleep | A$AP Rocky','Thats Life | Frank Sinatra', 'Codeine | Mandragora', 'AK-47 _ Mandragora' ];
+const songs = [ 'p2 | Lil Uzi Vert', 'Codeine Crazy | Future', '5 TINT | Travis Scott', 'Check-Young Thug ', 'Mood Swings | Pop Smoke', 'Self Care | Mac Miller', 'A$AP Forever | A$AP Rocky','Paranoia | Pop Smoke', 'Fukk Sleep | A$AP Rocky','Thats Life | Frank Sinatra', 'Codeine | Mandragora', 'AK-47 _ Mandragora' ];
 
 // Keep track of song
 let songIndex = 2;
