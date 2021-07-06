@@ -578,6 +578,12 @@ a {
   padding: 0px;
   margin-top: -10px;
 }
+.appDetails {
+  width: 50%; 
+  margin-left: 27vh; 
+  margin-top: -120px; 
+  margin-bottom:3vh;
+}
 @media screen and (max-width: 600px) {
   .main {
     width: 400px;
@@ -625,6 +631,15 @@ a {
     text-align: center;
     margin-left: -19px;
     margin-top: 40px;
+  }
+  .appDetails {
+    width: 40%;
+    margin-left: 20vh;
+    padding-left: 30px;
+    text-align: left;
+    padding-right: 0px;
+    margin-top: -50vh;
+    margin-bottom: 5vh;
   }
   #🎵 {
     margin-top: -40px;
