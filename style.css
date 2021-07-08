@@ -513,6 +513,19 @@ a {
   animation-duration: 1.5s;
   overflow-y: auto;
 }
+.modal-content-add-song {
+  background-color: rgba(255, 255, 255, 0.041);
+  margin: 20px auto;
+  color: #fff;
+  height: auto;
+  width: 50%;
+  border: 2px solid rgb(163, 177, 255);
+  border-radius: 20px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+  animation-name: modalopen;
+  animation-duration: 1.5s;
+  overflow-y: auto;
+}
 .modal-content-add::-webkit-scrollbar {
   width: 0.1rem;
 }
@@ -622,6 +635,11 @@ a {
     margin-top: 90px;
   }
   .modal-content-add {
+    margin-top: 3vh;
+    width: 92%;
+    height: auto;
+  }
+  .modal-content-add-song {
     margin-top: 3vh;
     width: 92%;
     height: auto;
