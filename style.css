@@ -504,7 +504,7 @@ a {
   background-color: rgba(255, 255, 255, 0.041);
   margin: 20px auto;
   color: #fff;
-  height: auto;
+  height: 60%;
   width: 50%;
   border: 2px solid rgb(163, 177, 255);
   border-radius: 20px;
@@ -512,6 +512,18 @@ a {
   animation-name: modalopen;
   animation-duration: 1.5s;
   overflow-y: auto;
+}
+.modal-content-add::-webkit-scrollbar {
+  width: 0.1rem;
+}
+
+.modal-content-add::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.modal-content-add::-webkit-scrollbar-thumb {
+  border-radius: 0.8rem;
+  background: transparent;
 }
 .closeBtn {
   color: #fff;
