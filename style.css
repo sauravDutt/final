@@ -504,7 +504,7 @@ a {
   background-color: rgba(255, 255, 255, 0.041);
   margin: 20px auto;
   color: #fff;
-  height: 60%;
+  height: 50vh;
   width: 50%;
   border: 2px solid rgb(163, 177, 255);
   border-radius: 20px;
@@ -661,6 +661,9 @@ a {
   }
   #🎵 {
     margin-top: -40px;
+  }
+  .modal-content-add {
+    height: 80vh;
   }
   .researchContent {
     height: 60vh;
