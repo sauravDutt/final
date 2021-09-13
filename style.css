@@ -172,6 +172,56 @@ h6 {
   z-index: 30;
   width: 600px;
 }
+.art {
+  background-color: #fff;
+  border-radius: 15px;
+  display: flex;
+  position: relative;
+  text-align: justify;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  padding: 20px 20px;
+  z-index: 30;
+  width: 600px;
+}
+.art-title {
+  font-family: 'Logo';
+  color: rgb(66, 3, 95);;
+  font-weight: 300;
+  font-size: 35px;
+  margin: 0;
+  padding: 0;
+}
+.illustrations {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+.artContent {
+  width: 100%;
+  margin: 0px;
+  padding: 10px;
+  background-color: #fff;
+  height: 40vh;
+  border: 1px solid rgba(163, 177, 255, 0.43);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  overflow-y: scroll;
+  overflow-x: none;
+  letter-spacing: 2px;
+}
+.artContent::-webkit-scrollbar{
+  width: 0.1rem;
+}
+
+.artContent::-webkit-scrollbar-track{
+  background: #fff;
+}
+
+.artContent::-webkit-scrollbar-thumb{
+  border-radius: 0.8rem;
+  background: rgb(90, 99, 151);
+}
 .researchContent {
   width: 100%;
   margin: 0px;
@@ -627,6 +677,7 @@ a {
   .projects,
   .about,
   .research,
+  .art,
   .mainContent {
     width: 400px;
   }
@@ -655,8 +706,16 @@ a {
   .projects,
   .about,
   .research,
+  .art,
   .mainContent {
     width: 340px;
+  }
+  .logo-img {
+    margin: 0 auto;
+    width: 270px;
+  }
+  .artContent {
+    height: 40vh;
   }
   .input {
     width: 100%;
@@ -737,6 +796,7 @@ a {
   .about,
   .mainContent,
   #🎵,
+  .art,
   .researchContent,
   .research,
   .main {
