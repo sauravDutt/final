@@ -1,0 +1,812 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Logo";
+  src: url(TheHistoriaDemo.otf);
+  font-style: normal;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  /* background-image: linear-gradient(
+      0deg,
+      rgb(52, 4, 77) 23.8%,
+      rgba(247, 247, 247, 0.575) 92%
+    ); */
+  /* background-color: rgba(236, 235, 235, 0.808); */
+  background-color: #1f1f1f;
+  /* background: url("images/sitebg.png") no-repeat center fixed;
+    background-size: cover; */
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poiret One", cursive;
+  padding: 0px 20px;
+  margin: 0;
+}
+
+body::-webkit-scrollbar {
+  width: 0.1rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1f1f1f;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 0.8rem;
+  background: rgb(163, 177, 255);
+}
+.projectIcons {
+  text-decoration: none;
+  color: #fff;
+  padding: 2px 9px 0px 13px;
+  font-family: "Logo";
+  height: 60px;
+  background-color: #1f1f1f;
+  font-size: 25px;
+  margin: 5px 10px 5px 10px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+}
+.projectIcons:hover {
+  background-color: #fff;
+  color: #1f1f1f;
+}
+.socialIcon {
+  text-decoration: none;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  background-color: #1f1f1f;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 9px 10px;
+  margin: 5px;
+}
+.socialIcon:hover {
+  color: #1f1f1f;
+  background-color: #fff;
+}
+footer {
+  margin-bottom: 20px;
+}
+.otherFont {
+  font-family: "Poiret One", cursive;
+  font-size: 20px;
+}
+.terminal-commands {
+  letter-spacing: 2px;
+  padding: 0px 5px;
+  color: rgb(208, 255, 0);
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  font-family: "Logo";
+  font-weight: 300;
+  font-size: 50px;
+  user-select: none;
+}
+h6 {
+  text-decoration: bold;
+  margin-top: -50px;
+  padding: 0, auto;
+  font-size: 0.8rem;
+  font-weight: 300;
+  user-select: none;
+}
+.contactTitle {
+  font-family: "Logo";
+  font-size: 35px;
+}
+.contactTitle span {
+  font-size: 20px;
+  font-family: "Poiret One", cursive;
+}
+.profileImg {
+  margin: 0px;
+  padding: 0px;
+  height: 30vh;
+}
+.main {
+  background-color: #fff;
+  border-radius: 15px;
+  display: flex;
+  position: relative;
+  margin-top: -5px;
+  margin-bottom: 5px;
+  z-index: 30;
+  width: 600px;
+}
+.freelanceProjectsImages {
+  width: 100%;
+}
+.projects {
+  background-color: rgba(255, 255, 255, 0.041);
+  border-radius: 15px;
+  display: flex;
+  position: relative;
+  text-align: justify;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 20px 20px;
+  z-index: 30;
+  width: 600px;
+}
+.projects .projectInfo {
+  margin-top: -6px;
+  user-select: none;
+}
+.about {
+  background-color: rgba(255, 255, 255, 0.041);
+  border-radius: 15px;
+  display: flex;
+  position: relative;
+  text-align: justify;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  padding: 20px 20px;
+  z-index: 30;
+  width: 600px;
+}
+.research {
+  background-color: rgba(255, 255, 255, 0.041);
+  border-radius: 15px;
+  display: flex;
+  position: relative;
+  text-align: justify;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  padding: 20px 20px;
+  z-index: 30;
+  width: 600px;
+}
+.art {
+  background-color: #fff;
+  border-radius: 15px;
+  display: flex;
+  position: relative;
+  text-align: justify;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  padding: 20px 20px;
+  z-index: 30;
+  width: 600px;
+}
+.art-title {
+  font-family: 'Logo';
+  color: rgb(66, 3, 95);;
+  font-weight: 300;
+  font-size: 35px;
+  margin: 0;
+  padding: 0;
+}
+.illustrations {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+.artContent {
+  width: 100%;
+  margin: 0px;
+  padding: 10px;
+  background-color: #fff;
+  height: 40vh;
+  border: 1px solid rgba(163, 177, 255, 0.43);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  overflow-y: scroll;
+  overflow-x: none;
+  letter-spacing: 2px;
+}
+.artContent::-webkit-scrollbar{
+  width: 0.1rem;
+}
+
+.artContent::-webkit-scrollbar-track{
+  background: #fff;
+}
+
+.artContent::-webkit-scrollbar-thumb{
+  border-radius: 0.8rem;
+  background: rgb(90, 99, 151);
+}
+.researchContent {
+  width: 100%;
+  margin: 0px;
+  padding: 10px;
+  background-color: #000;
+  height: 70vh;
+  border: 1px solid rgba(163, 177, 255, 0.43);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  overflow-y: scroll;
+  overflow-x: none;
+  letter-spacing: 2px;
+}
+.researchContent::-webkit-scrollbar{
+  width: 0.1rem;
+}
+
+.researchContent::-webkit-scrollbar-track{
+  background: #1f1f1f;
+}
+
+.researchContent::-webkit-scrollbar-thumb{
+  border-radius: 0.8rem;
+  background: rgb(163, 177, 255);
+}
+.about .aboutInfo {
+  margin-top: -6px;
+  user-select: none;
+}
+p {
+  user-select: none;
+}
+.skillsCarriar {
+  margin-top: 5px;
+  margin-left: -7px;
+  padding: 0px 0px 10px 0px;
+}
+.skills {
+  font-size: 22px;
+  padding: 10px 20px;
+  margin: 0px 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: #1f1f1f;
+}
+.contactIcon {
+  font-size: 15px;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+.skills:hover {
+  color: #1f1f1f;
+  background-color: #fff;
+}
+.contactForm {
+  margin-bottom: -35px;
+  padding: 5px 10px;
+}
+.input {
+  width: 100%;
+  font-size: 15px;
+  background-color: #1f1f1f;
+  border: 1px solid rgba(255, 255, 255, 0.137);
+  color: #fff;
+  padding: 10px;
+  margin-left: -10px;
+}
+.usernameInput {
+  width: 70%;
+  border-radius: 10px;
+  font-size: 15px;
+  background-color: #1f1f1f;
+  border: 1px solid rgba(255, 255, 255, 0.137);
+  color: #fff;
+  padding: 10px;
+  margin-left: -10px;
+  margin-right: 5px;
+}
+.input-submit {
+  width: 20%;
+  border-radius: 10px;
+  font-size: 15px;
+  background-color: #1f1f1f;
+  border: 1px solid rgba(255, 255, 255, 0.137);
+  color: #fff;
+  padding: 10px;
+  height: 40px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.input-submit:hover {
+  color: #1f1f1f;
+  background-color: #fff;
+}
+.heroText {
+  width: 320px;
+  color: rgb(66, 3, 95);
+  font-weight: 900;
+  font-size: 25px;
+  text-align: center;
+  margin-left: 20px;
+  margin-top: 90px;
+}
+a {
+  text-decoration: none;
+  color: rgb(163, 177, 255);
+  letter-spacing: 2px;
+  font-weight: 900;
+}
+h6 {
+  text-decoration: bold;
+  margin-top: -50px;
+  padding: 0, auto;
+  font-size: 0.8rem;
+  font-weight: 300;
+  user-select: none;
+}
+.buttonOne {
+  margin-left: 10px;
+  font-weight: 300;
+  font-size: 13px;
+  height: 25px;
+  width: 25px;
+  color: #fff;
+  border: 1px solid #1f1f1f17;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: transparent;
+}
+.buttonTwo {
+  font-family: "Logo";
+  font-weight: 300;
+  font-size: 15px;
+  color: #fff;
+  padding: 5px 0px;
+  margin: 0px;
+  width: 150px;
+  user-select: none;
+  background-color: transparent;
+}
+.buttonTwoSubmit {
+  margin: 10px;
+  text-decoration: none;
+  font-family: "Logo";
+  font-weight: 200;
+  font-size: 30px;
+  color: #fff;
+  border: 1px solid rgb(163, 177, 255);
+  border-radius: 15px;
+  padding: 0px 20px;
+  padding-top: 5px;
+  cursor: pointer;
+  background-color: transparent;
+}
+.buttonOne:hover,
+.buttonTwoSubmit:hover {
+  background-color: rgba(163, 177, 255, 0.411);
+  color: #fff;
+}
+.contentDash {
+  background-color: transparent;
+  overflow: hidden;
+  display: flex;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+a {
+  text-decoration: none;
+  padding-top: 3px;
+}
+.mainContent {
+  background-color: rgba(255, 255, 255, 0.041);
+  border-radius: 15px;
+  display: flex;
+  position: relative;
+  margin-top: -5px;
+  padding: 20px 40px;
+  width: 500px;
+  z-index: 30;
+}
+.mainContent p {
+  text-align: justify;
+}
+.music-container {
+  background-color: rgba(255, 255, 255, 0.041);
+  border-radius: 15px;
+  border: 3px solid rgba(163, 177, 255, 0.671);
+  display: flex;
+  padding: 20px 30px;
+  position: relative;
+  margin-top: 70px;
+  z-index: 30;
+}
+
+.img-container {
+  background-color: transparent;
+  position: relative;
+  width: 110px;
+}
+
+.img-container::after {
+  content: "";
+  background-color: #414141;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  transform: translate(-50%, 50%);
+}
+
+.img-container img {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 110px;
+  width: inherit;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  animation: rotate 3s linear infinite;
+
+  animation-play-state: paused;
+}
+
+.music-container.play .img-container img {
+  animation-play-state: running;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.action-btn {
+  background-color: rgba(255, 255, 255, 0);
+  border: 0;
+  color: #bdbcbd70;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 0 20px;
+}
+
+.action-btn.action-btn-big {
+  color: #bdbcbd70;
+  font-size: 30px;
+}
+
+.action-btn:focus {
+  outline: 0;
+}
+
+.music-info {
+  background-color: transparent;
+  border-radius: 15px 15px 0 0;
+  border: 1px solid rgba(163, 177, 255, 0.295);
+  border-bottom: none;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: calc(100% - 40px);
+  padding: 10px 10px 10px 150px;
+  opacity: 0;
+  transform: translateY(0%);
+  transition: transform 0.3s ease-in, opacity 0.3s ease-in;
+  z-index: 0;
+  color: #fff;
+}
+
+.music-container.play .music-info {
+  opacity: 1;
+  transform: translateY(-100%);
+}
+
+.music-info h4 {
+  margin: 0;
+}
+
+.progress-container {
+  background: rgba(255, 255, 255, 0.014);
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+  height: 4px;
+  width: 100%;
+}
+
+.progress {
+  background-color: rgba(163, 177, 255, 0.568);
+  border-radius: 5px;
+  height: 100%;
+  width: 0%;
+  transition: width 0.1s linear;
+}
+#infoModal {
+  display: none;
+}
+#addModal {
+  display: none;
+}
+.modalInfo {
+  display: none;
+  position: fixed;
+  z-index: 50;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: #1f1f1f;
+}
+.modal-content-add {
+  background-color: rgba(255, 255, 255, 0.041);
+  margin: 20px auto;
+  color: #fff;
+  height: 50vh;
+  width: 50%;
+  border: 2px solid rgb(163, 177, 255);
+  border-radius: 20px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+  animation-name: modalopen;
+  animation-duration: 1.5s;
+  overflow-y: auto;
+}
+.modal-content-add-song {
+  background-color: rgba(255, 255, 255, 0.041);
+  margin: 20px auto;
+  color: #fff;
+  height: auto;
+  width: 50%;
+  border: 2px solid rgb(163, 177, 255);
+  border-radius: 20px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+  animation-name: modalopen;
+  animation-duration: 1.5s;
+  overflow-y: auto;
+}
+.modal-content-add::-webkit-scrollbar {
+  width: 0.1rem;
+}
+
+.modal-content-add::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.modal-content-add::-webkit-scrollbar-thumb {
+  border-radius: 0.8rem;
+  background: transparent;
+}
+.closeBtn {
+  color: #fff;
+  float: right;
+  font-size: 40px;
+}
+
+.closeBtn:hover,
+.closeBtn:focus {
+  color: rgb(163, 177, 255);
+  text-decoration: none;
+  cursor: pointer;
+}
+.researchImage {
+  width:540px; 
+}
+.head {
+  margin-top: -20px;
+}
+.modal-header h2,
+.modal-footer h3 {
+  margin: 0;
+}
+.modal-header {
+  padding: 35px;
+}
+.modal-body {
+  font-family: "Poiret One", cursive;
+  font-weight: bold;
+  padding: 5px 20px;
+}
+.modal-footer {
+  padding: 10px;
+  text-align: center;
+}
+.modalTitleList {
+  font-family: "Logo";
+  font-weight: 300;
+  font-size: 50px;
+}
+.secondFont {
+  font-size: 25px;
+  font-family: "Poiret One", cursive;
+}
+.secondFontYo {
+  font-size: 20px;
+  font-family: "Poiret One", cursive;
+}
+.secondFontTwo {
+  font-family: "Poiret One", cursive;
+}
+.insightDiv {
+  border-radius: 5px;
+  border: 1px solid rgba(163, 177, 255, 0.164);
+  margin-top: 7px;
+  background-color: #1f1f1f;
+  padding: 5px;
+}
+.insightDivOne {
+  border-radius: 5px;
+  background-color: #1f1f1f;
+  border: 1px solid rgba(163, 177, 255, 0.164);
+  margin-top: -5px;
+  padding: 5px;
+}
+.insight {
+  padding: 0px;
+  margin-top: -10px;
+}
+.appDetails {
+  width: 50%; 
+  text-align: right;
+  margin-left: 27vh; 
+  margin-top: -120px; 
+  margin-bottom:3vh;
+}
+@media screen and (max-width: 600px) {
+  .main {
+    width: 400px;
+  }
+  .buttonOne {
+    margin-left: 5px;
+  }
+  .researchImage {
+    width: 400px;
+  }
+  .projects,
+  .about,
+  .research,
+  .art,
+  .mainContent {
+    width: 400px;
+  }
+  .heroText {
+    width: 170px;
+    font-size: 20px;
+    margin-left: -5px;
+    margin-top: 90px;
+  }
+  .modal-content-add {
+    margin-top: 3vh;
+    width: 92%;
+    height: auto;
+  }
+  .modal-content-add-song {
+    margin-top: 3vh;
+    width: 92%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .main {
+    width: 340px;
+  }
+  .projects,
+  .about,
+  .research,
+  .art,
+  .mainContent {
+    width: 340px;
+  }
+  .logo-img {
+    margin: 0 auto;
+    width: 270px;
+  }
+  .artContent {
+    height: 40vh;
+  }
+  .input {
+    width: 100%;
+  }
+  .projectIcons {
+    padding: 2px 9px 0px 10px;
+    margin: 3px 1px 3px 5px;
+  }
+  .heroText {
+    text-align: center;
+    margin-left: -19px;
+    margin-top: 40px;
+  }
+  .appDetails {
+    width: 40%;
+    margin-left: 20vh;
+    padding-left: 30px;
+    text-align: justify;
+    font-size: 14px;
+    padding-right: 0px;
+    margin-top: -51.6vh;
+  }
+  #🎵 {
+    margin-top: -40px;
+  }
+  .modal-content-add {
+    height: 80vh;
+  }
+  .researchContent {
+    height: 60vh;
+  }
+  .buttonOne {
+    font-size: 10px;
+    padding: 0px 5px;
+    margin-top: -5px;
+  }
+  .buttonTwo {
+    width: 150px;
+  }
+  .mainContent {
+    width: 340px;
+  }
+  .mainContent p {
+    margin-left: 10px;
+  }
+  .contentDash {
+    margin-top: -3px;
+  }
+  .music-container {
+    margin-top: 88px;
+    padding: 20px 22px;
+    width: 350px;
+  }
+  .researchImage {
+    padding: 0px;
+    width: 279px
+  }
+  .img-container {
+    margin-left: -30px;
+  }
+  .img-container::after {
+    background-color: transparent;
+  }
+}
+
+@media screen and (max-height: 400px) {
+  body {
+    overflow: hidden;
+    height: 100vh;
+  }
+  #🍺 {
+    margin-top: 10px;
+  }
+  .music-container {
+    margin-top: 42px;
+  }
+  .projects,
+  .about,
+  .mainContent,
+  #🎵,
+  .art,
+  .researchContent,
+  .research,
+  .main {
+    display: none;
+  }
+  .buttonOne {
+    padding: 3px;
+  }
+  .modal-content-add {
+    margin: 10px auto;
+    height: 90vh;
+  }
+}
