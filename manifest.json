@@ -1,0 +1,10 @@
+{
+    "name": "sauravDutt PWA",
+    "icons": [
+        {
+            "src": "./favicon.png",
+            "type": "image/png",
+            "sizes": "120x120"
+        }
+    ]
+}
