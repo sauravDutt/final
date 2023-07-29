@@ -11,6 +11,18 @@ const cover = document.getElementById('cover');
 const currTime = document.querySelector('#currTime');
 const durTime = document.querySelector('#durTime');
 
+if ('mediaSession' in navigator) {
+
+	navigator.mediaSession.metadata = new MediaMetadata({
+	  title: 'sauravDutt Playlist',
+	  artist: 'sauravDutt',
+	  album: 'Playlist',
+	  artwork: [
+		{ src: './favicon.png',   sizes: '120x120',   type: 'image/png' }
+	  ]
+});
+}
+
 // Song titles
 const songs = [  'Homicide', 'Check-Young Thug ', 'Strawberry Fields Forever', 'Yesterday', 'Next Episode','fly me to the moon', 'Monday Morning Quarterback', 'AK-47 _ Mandragora' ];
 
