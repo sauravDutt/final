@@ -18,7 +18,7 @@ if ('mediaSession' in navigator) {
 	  artist: 'sauravDutt',
 	  album: 'Playlist',
 	  artwork: [
-		{ src: 'https://dummyimage.com/420/000/fff&text=sauravDutt', sizes: '192x192', type: 'image/png' }
+		{ src: 'https://dummyimage.com/420/000&text=sauravDutt', sizes: '192x192', type: 'image/png' }
 	  ]
 });
 }
