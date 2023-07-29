@@ -18,7 +18,7 @@ if ('mediaSession' in navigator) {
 	  artist: 'sauravDutt',
 	  album: 'Playlist',
 	  artwork: [
-		{ src: 'https://ibb.co/ctg8d02', sizes: '192x192', type: 'image/png' }
+		{ src: 'https://static.vecteezy.com/system/resources/thumbnails/007/302/599/small/abstract-colorful-psychedelic-background-free-vector.jpg', sizes: '192x192', type: 'image/png' }
 	  ]
 });
 }
