@@ -11,17 +11,22 @@ const cover = document.getElementById('cover');
 const currTime = document.querySelector('#currTime');
 const durTime = document.querySelector('#durTime');
 
-// if ('mediaSession' in navigator) {
+if ('mediaSession' in navigator) {
 
-// 	navigator.mediaSession.metadata = new MediaMetadata({
-// 	  title: 'sauravDutt Playlist',
-// 	  artist: 'sauravDutt',
-// 	  album: 'Playlist',
-// 	  artwork: [
-// 		{ src: 'https://sauravdutt.com/favicon.png', type: 'image/png' }
-// 	  ]
-// });
-// }
+	navigator.mediaSession.metadata = new MediaMetadata({
+	  title: 'sauravDutt Playlist',
+	  artist: 'sauravDutt',
+	  album: 'Playlist',
+	  artwork: [
+		{ src: 'https://dummyimage.com/96x96',   sizes: '96x96',   type: 'image/png' },
+		{ src: 'https://dummyimage.com/128x128', sizes: '128x128', type: 'image/png' },
+		{ src: 'https://dummyimage.com/192x192', sizes: '192x192', type: 'image/png' },
+		{ src: 'https://dummyimage.com/256x256', sizes: '256x256', type: 'image/png' },
+		{ src: 'https://dummyimage.com/384x384', sizes: '384x384', type: 'image/png' },
+		{ src: 'https://dummyimage.com/512x512', sizes: '512x512', type: 'image/png' },
+	  ]
+});
+}
 
 // Song titles
 const songs = [  'Homicide', 'Check-Young Thug ', 'Strawberry Fields Forever', 'Yesterday', 'Next Episode','fly me to the moon', 'Monday Morning Quarterback', 'AK-47 _ Mandragora' ];
