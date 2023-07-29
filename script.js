@@ -18,7 +18,7 @@ if ('mediaSession' in navigator) {
 	  artist: 'sauravDutt',
 	  album: 'Playlist',
 	  artwork: [
-		{ src: 'https://img.freepik.com/premium-vector/yellow-smiley-icon-psychedelic-fungus-vector-illustrations-your-work-logo-mascot-merchandise-t-shirt-stickers-label-designs-poster-greeting-cards-advertising-business-company-brands_228886-631.jpg?w=2000', sizes: '192x192', type: 'image/png' }
+		{ src: 'https://ibb.co/ctg8d02', sizes: '192x192', type: 'image/png' }
 	  ]
 });
 }
